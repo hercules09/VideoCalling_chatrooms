@@ -1,0 +1,15 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "peer": "^0.6.1",
+    "socket.io": "^4.1.3"
+  }
+}
