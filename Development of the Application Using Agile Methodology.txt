@@ -1,0 +1,65 @@
+﻿Development of the Application Using Agile Methodology
+Since4 weeks were allotted to complete this project, I divided the aforementioned period into four sprints :
+Sprint 1-Research; (14-21 June):
+Sprint 2-Developing the basic functionality; (21-28 June):
+Sprint 3-Styling the page and adding features; (28 June-5 July):
+Sprint 4-Adding Surprise feature and other features; (5 July- 12 July):
+
+
+As I am a beginner, learning the nuances of web development, i.e.,  HTML, CSS, JavaScript, NodeJs was a continuous process throughout the period.
+* Sprint 1-Research; (14-21 June):
+Starting from scratch, I devoted the first week to research on how to start building the project.
+I surfed the internet, read multiple articles and watched Youtube tutorials on how technologies such as WebRtc, Jitsi and Peerjs work.
+Targets Planned:
+       1)  Research on how to create the basic functionality of video call between 2 users.
+
+
+Targets Achieved:
+1. Learnt how peerJs works in establishing a peer to peer connection.
+2. Learnt theory on how Nodejs works. 
+
+
+* Sprint 2-Developing the basic functionality; (21-28 June):
+The main aim for this week was to develop a base,i.e, an application with the minimum functionality.
+Targets Planned:
+1. Developing a webpage with the minimum functionality,i.e., a minimum of two users can connect through a video call.
+
+
+Targets Achieved:
+1. With the help of a youtube tutorial and a blog, I created a plain webpage with the video calling capability. After creating an Express server, I used peerjs and socket.io to create a room wherein when users join would be able to have a video call
+
+
+Targets Incomplete:
+1. Couldn’t add any styling elements to the webpage.
+2. Faced a socket.io error wherein other users got connected but the user’s video was not visible.
+
+
+* Sprint 3-Styling the page and adding features; (28 June-5 July):
+Targets Planned:
+1. Rectify the socket.io error
+2. Adding some style elements and add some basic features.
+3. Adding a feature for Screen-Sharing and Whiteboard.
+Targets Achieved:
+1. Rectified the socket.io error after referring to stack overflow. The error had occurred due to wrong declaration and improper installation of dependencies.
+2. Added features of ‘mute’, ‘stop video’, ‘invite button’ and ‘nametag’.
+Targets Incomplete:
+1. The user’s screen is getting captured but I am unable to display it on the HTML page.
+2. Unable to present whiteboard on the same page as the meet.
+* Sprint 4-Adding Surprise feature and other features; (5 July- 12 July):
+Targets:
+1)  Incorporating the surprise feature, i.e, chat feature.
+2)  Adding a feature for Screen-Sharing.
+
+
+Achieved:
+1. Was able to incorporate a chat functionality within the meet.
+2. Created a chat with multiple rooms, where users reach upon opening the URL and after exiting the meet.
+Features Currently Working on:
+1. Improve the Screen Sharing so that it opens within the meet.
+2. Improve the White-Board feature so that it opens within the meet
+3. Raise Hand
+      
+Features Planned:
+1. Master mute, stop the video and remove participant control for the host.
+2. Participants List
+3. Chat backup, so that when a new user joins he/she has access to the previous chat messages of that meet
